@@ -1,0 +1,75 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{times}
+
+% numbers option provides compact numerical references in the text. 
+\usepackage[numbers]{natbib}
+\usepackage{multicol}
+\usepackage[bookmarks=true]{hyperref}
+
+\usepackage{amsmath,amsthm}
+
+\pdfinfo{
+   /Author (Homer Simpson)
+   /Title  (Robots: Our new overlords)
+   /CreationDate (D:20101201120000)
+   /Subject (Robots)
+   /Keywords (Robots;Overlords)
+}
+
+%\sloppy
+%\frenchspacing
+%\renewcommand{\baselinestretch}{1.0}
+
+\input{sections/preamble.tex}
+
+%%% ------------------------------------------------------------------------------------------ %%%
+\title{\LARGE \bf How to Write Technical Papers: UT Austin Swarm Lab}
+
+\author{\IEEEauthorblockN{
+Sandeep Chinchali\IEEEauthorrefmark{1}
+\IEEEauthorblockA{Department of Electrical and Computer Engineering\IEEEauthorrefmark{1},
+The University of Texas at Austin, Austin, TX}
+\IEEEauthorblockA{E-mail: sandeepc@utexas.edu}}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract.tex}
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+\label{sec:introduction}
+\input{sections/intro.tex}
+
+\section{Problem Statement}
+\label{sec:problem_statement}
+\input{sections/problem_statement.tex}
+
+\section{Solution Approach}
+\label{sec:task_specific_algorithm}
+\input{sections/algorithm.tex}
+
+\section{Experimental Results}
+\label{sec:experiments}
+\input{sections/experiments.tex}
+
+\section{Discussion and Conclusions}
+\label{sec:conclusion}
+\input{sections/discussion.tex}
+
+\section{Acknowledgements}
+
+%\newpage
+%\bibliographystyle{plainnat}
+\bibliographystyle{abbrv}
+\bibliography{ref/full}
+
+\newpage
+\appendix
+\label{sec:appendix}
+\input{sections/appendix.tex}
+\end{document}
