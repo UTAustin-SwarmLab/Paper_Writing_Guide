@@ -8,7 +8,7 @@ The following guidelines govern notation.
     \item \textbf{Time: } Use a subscript for \textit{discrete} time, such as $x_t$. A timeseries of variable $x$ from time $t_0$ to $t_f$ should be given by $x_{t_0:t_f}$.
     \item \textbf{Use Standard Notation: } In control, the state is generally given by $x_t$, control by $u_t$, policy by $\pi$, and cost function by $J$. Strictly follow the same notation as prior papers by Sandeep or key influential textbooks.
     \item \textbf{Intuitive Variable Choices: } Your reader has a limited attention span, and will forget random notation like $\psi, \Gamma$ unless it is necessary. Suppose we have $K$ epochs to run an algorithm. Instead of $K$, write $N_{\mathrm{epoch}}$, which is obvious in case I forget what $K$ is.
-
-
+    \item \textbf{Deep Learning Notation: } Parameters of a model are given by $\theta$. If you have different models, call them $\theta_{\mathrm{enc.}}$, $\theta_{\mathrm{ctrl}}$ for an encoder and controller (for example), rather than use a slew of unintuitive varibles like $\alpha, \psi$ etc. Loss functions should be given by $\mathcal{L}$, datasets by $\mathcal{D}$, etc.
+    \item Use $\textsc{mathrm}$ in LaTeX for English words in a LaTeX equation.
 \end{enumerate}
 
