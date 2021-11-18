@@ -1,7 +1,19 @@
+\subsection{Section Objective}
+We have now formalized a challenging problem. Now, we want to introduce an algorithm or analytical solution. If we are doing pure deep learning, we should at least describe a loss function, model architecture, and training procedure. 
 
-\subsection{Algorithm}
-All algorithm lines should be numbered. Each line of the Algorithm should be described (and referenced) sequentially with intuition on why it matters. Do not simply state \textit{what} you do, but tell us \textit{why}. Here is an example: 
+\subsubsection{Illustrative Toy Example}
+Often, we describe a toy example that clearly demonstrates the idea works in simulation. First, define the toy problem parameters using the \textit{same notation} from the problem statement. Then, show the solution and a figure with the key results. Make sure to describe \textbf{the intuition} the toy problem provides and how we can \textbf{generalize} the results to more sophisticated examples that you tell the reader will follow.
 
+\subsubsection{Algorithm or Derivation}
+This should artfully use insights from the toy problem to come up with a general algorithm or formal derivation. Tell why you do each step and place minute details for proofs in the Appendix if you have space constraints. 
+
+A \bad{example} simply states \textbf{what} you did without logical transitions or stating \textbf{why}.
+
+\subsection{Algorithm Details}
+An algorithm should appear as a stand-alone Figure with a caption. 
+All algorithm lines should be \textbf{numbered} with \textbf{in-line comments} if space permits. Each line of the Algorithm should be described (and referenced) sequentially with intuition on why it matters. Do not simply state \textit{what} you do, but tell us \textit{why}. Here is an example: 
+
+A \SC{good} example: 
 \begin{quote}
     \SC{We now describe the key steps in Algorithm 1 to co-design a task-driven encoder and decoder. First, on line 1, we initialize the parameters $\theta$ randomly. Then, our next step is to $\ldots$.}
 \end{quote}
