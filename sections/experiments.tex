@@ -1,13 +1,25 @@
-\subsection{Figure and Caption Guidelines}
+\subsection{Section Objective}
+We have now described our problem and what we \textit{claim} is the best solution.
+We now need to provide hard quantitative evidence that proves this is true on diverse datasets or experimental domains. For a fair comparison, we need to describe: 
+
+\begin{enumerate}
+    \item \textbf{Evaluation Metrics: } What metrics define a good solution to the optimization problem stated in the problem formulation? Typically, this is a low overall cost or loss, but we also should describe individual terms of the loss function. These metrics \textbf{must appear} in a table or clear figure for \textbf{all benchmarks}. 
+    \item \textbf{Benchmarks: } Recap the benchmarks and specific variants of your algorithm you will test. 
+    \item \textbf{Diverse Experimental Domains: } Allude to each dataset you test your algorithm on in order of sophistication. Ideally, the last experiment should be on a real robot or hardware.
+\end{enumerate}
+
+\subsection{Guidelines}
+
+\subsubsection{Figure and Caption Guidelines}
 
 All figures should be described and referenced in order in the text. 
 Each caption should be descriptive and have a short title in \textbf{bold} describing the key take-away. The caption should describe why your method is better than benchmarks etc. Never have short, obvious captions that describe the plot title, such as ``Plot of Accuracy vs. Latency''.
 
-\subsection{Plots}
+\subsubsection{Plots}
 
 The plots should be done using a combination of Matplotlib and the Seaborn Packages in python. All raw data to create the plot should be stored and backed up in GIT as a csv. Axes tick marks, legends, and axes labels should be \textit{at least} \textbf{20 point font}.
 
-If your axes titles or legends describe a mathematical quantity, first state the English name and the variable in LaTex. For example, \textbf{Acceleration $a$}.
+If your axes titles or legends describe a mathematical quantity, first state the English name and the variable in LaTeX. For example, \textbf{Acceleration $a$}.
 
 The following guidelines are for lines/curves:
 
