@@ -1,4 +1,4 @@
-\subsection{Objective}
+\subsection{Section Objective}
 The problem statement is the most important part of your paper and should be written first. First, allude to a diagram that shows the information flow with mathematical notation for your problem, such as Figure 2.
 Then, systematically introduce key notation that helps you build up to a \textbf{formal mathematical optimization problem} with a cost function and constraints (in most problems our lab will focus on).
 
@@ -13,7 +13,9 @@ Namely, the sensory input, each computation function, and each function's input 
     \item The cost function.
 \end{enumerate}
 
-\subsection{Variables and Equations}
+\subsection{Guidelines}
+
+\subsubsection{Variables and Equations}
 
 The following guidelines govern notation.
 
@@ -24,4 +26,12 @@ The following guidelines govern notation.
     \item \textbf{Deep Learning Notation: } Parameters of a model are given by $\theta$. If you have different models, call them $\theta_{\mathrm{enc.}}$, $\theta_{\mathrm{ctrl}}$ for an encoder and controller (for example), rather than use a slew of unintuitive varibles like $\alpha, \psi$ etc. Loss functions should be given by $\mathcal{L}$, datasets by $\mathcal{D}$, etc.
     \item Use $\textsc{mathrm}$ in LaTeX for English words in a LaTeX equation.
 \end{enumerate}
+
+\subsubsection{Formal Problem Statement}
+This should be in a formal problem statement block, such as in \cite{}.
+The statement should describe the inputs (``givens''), the optimization objective, and constraints. For the inputs and contstraints, you likely will reference equations defined earlier. 
+
+\subsubsection{Significance of the Problem}
+Describe in one short paragraph why the problem is novel compared to state-of-the-art, how it broadly applies to many engineering settings, and what technical parts make it challenging to solve.
+
 
