@@ -20,13 +20,34 @@ An example:
 
 \textbf{Paragraph 3: Key Technical Insight for Your Solution Approach}
 
+Anyone can describe a grand challenge and open problems. Here, we describe your unique technical insight that allows you to solve the problem. First, describe \textbf{your key observation} on why state-of-the-art methods fail today. Then, describe your \textbf{key technical insight} that can provide a solution.
+Then, describe the \textbf{the principal contribution} of your paper. 
+Focus on clear, jargon-free sentences with carefully-selected technical terms so an expert can quickly appreciate what your solution and unique contribution will be. Often, reference Figure 1 that shows a clear diagram of your approach, but do not get into deep mathematical details. 
+
 \subsubsection{Related Work}
+First, describe the 4-5 key sub-topics your work relates to. For each, cite several papers and, crucially, describe how their approach \textit{differs} from yours or is complementary. Do not simply state what each paper does, but emphasize why it differs. Some people prefer to describe one closest competitor paper in detail: ``\SC{The closest work to ours is \cite{alvar2019multi}. The key difference of our approach is we \ldots}''.
+
+A \SC{good} example:
+
+\begin{quote}
+    Our work is broadly related to rate distortion theory, autoencoders, and task-driven representation learning in robotics. Several prior works use rate distortion theory to [brief overview and citations]. However, the standard assumption in rate distortion theory is to [describe why it differs], which is in stark contrast to our approach that [\ldots].
+\end{quote}
+
+A \SC{bad} example:
+
+\begin{quote}
+Chinchali et. al. do [something]. Blank et. al. [do something else]. Continue with a long list of papers and their descriptions, but nothing to cluster them together based on sub-topic or contrast with your approach. 
+\end{quote}
+
+Key words to use in this paragraph are \textbf{contrast, complementary} etc.
 
 \subsubsection{Contributions }
+``In light of prior work, our contributions are N-fold.'' Use a sentence like this to segway between related work and your key contributions. Make an enumerated list of contributions (typically 3-4) with clear, short sentences, links to code or data URLs, and quantitative numbers showing the improvement over benchmarks. 
+Allude to cool hardware demonstrations or simulation platforms here.
 
 \subsubsection{Paper Organization }
+Describe the key content of each section and how they relate to the overall flow of the paper.
 
 \subsection{Guidelines}
 Outline the key contributions, technical insight, and comparison with state-of-the-art in \textbf{bullet points}. Then, only once you are done writing the rest of the paper, write the full text.
 
-Dummy Citation \cite{alvar2019multi}
