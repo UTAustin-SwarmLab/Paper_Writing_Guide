@@ -8,6 +8,18 @@ We now need to provide hard quantitative evidence that proves this is true on di
     \item \textbf{Diverse Experimental Domains: } Allude to each dataset you test your algorithm on in order of sophistication. Ideally, the last experiment should be on a real robot or hardware.
 \end{enumerate}
 
+\textbf{Paragraph 1: }
+Describe evaluation metrics, recap benchmarks, and hook the reader by alluding to cool experiments. Make sure to reference all the key plots, ideally in a list, so the reader knows what to anticipate.
+
+\textbf{Subsections: }
+Each subsection should correspond to a new experimental domain. In the first paragraph, describe the setup and why the experiment is interesting and is a good setup to rigorously test your algorithm. Use the same notation as in the problem statement. 
+
+Next, reference each Figure in order and show why they support your claim that your algorithm is better. Start with \textbf{aggregate metrics over several trials} such as boxplots/barplots of accuracy, control cost etc. Then, start with \textbf{qualitative, illustrative analyses}, such as visualizing timeseries and images. \SC{A good paper always gives the key take-aways and insights rather than simply stating your method is $X \times$ better than benchmarks.} Follow
+the same structure and show the exact same metrics across diverse experimental setups. 
+
+\textbf{Limitations: }
+In 1-2 sentences, describe key assumptions and cases where you expect your algorithm will not do well. This should be a note to the practitioner and say you will handle them in future work. Reviewers often ask for this. 
+
 \subsection{Guidelines}
 
 \subsubsection{Figure and Caption Guidelines}
