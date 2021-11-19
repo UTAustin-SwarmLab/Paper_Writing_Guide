@@ -1,0 +1,11 @@
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1.0\columnwidth]{pics/tasknet_block_diagram.pdf}
+    \caption{\small{\textbf{(Original Caption) Task-Relevant Communication for Perception}: 
+    A compute-limited robot \textit{learns} how to compress sensory input $x$, transmit salient features $z$, and decode the input $\xhat$ so that it can directly leverage a pre-trained, potentially ``off-the-shelf'' task module $f(;\thetatask)$ at a central server.
+By learning an encoder and decoder (gray) within the context of a pre-trained task module's goal, we only transmit minimal, salient information. \RSS{In the figure, only components in gray (the encoder and decoder) are learned, while the task network $\ftask$ has pre-trained, fixed parameters.}
+Original sensory input $x$ and task output $y$ (dashed lines) are only used for training.} \newline
+    \small{\SC{\textbf{Figure Explanation: } A block diagram of the main problem setting should always be at the top right of page 1. The caption should succinctly describe the key idea and use color purposefully, as explained in the above caption.}}}
+    \label{fig:task_autoencoder}
+\vspace{-1em}
+\end{figure}
